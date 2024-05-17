@@ -1,31 +1,31 @@
 # Java_Project
 Ferm student project 
 
-
 # Farm Simulation Project
 
-## Описание
-Проект "Farm Simulation" - это визуализация фермы, где фермеры сажают урожай, вредители пытаются его уничтожить, а защитники борются с вредителями. Это интерактивная модель, позволяющая наблюдать за динамическими взаимодействиями между различными сущностями на ферме.
+## Description
+The Farm Simulation project is a visualization of a farm where farmers plant crops, pests try to destroy them, and defenders fight pests. It is an interactive model that allows you to observe the dynamic interactions between different entities on a farm.
 
-## Технологии
-Проект написан на языке Java с использованием Swing для графического интерфейса. 
+## Technologies
+The project is written in Java using Swing for the GUI.
 
-## Функциональность
-- **Фермеры**: Посадка урожая в случайных местах.
-- **Вредители**: Атака на урожай в случайных местах, если там нет защитников.
-- **Защитники**: Уничтожение вредителей в соседних клетках.
+## Functionality
+- **Farmers**: Plant crops in random places.
+- **Pests**: Attack crops in random places if there are no defenders there.
+- **Defenders**: Destroy pests in neighboring cells.
 
-## Установка и запуск
-Чтобы запустить проект, вам нужно иметь установленную Java Development Kit (JDK) версии 11 или выше.
+## Installation and launch
+To run the project, you need to have Java Development Kit (JDK) version 11 or higher installed.
 
 
-Фермеры: Синий цвет (Color.BLUE)
-Вредители: Красный цвет (Color.RED)
-Защитники: Чёрный цвет (Color.BLACK)
-Урожай: Зелёный цвет (Color.GREEN)
-Пустые клетки: Белый цвет (Color.WHITE)
+Farmers: Color Blue (Color.BLUE)
+Pests: Red (Color.RED)
+Defenders: Black (Color.BLACK)
+Harvest: Green color (Color.GREEN)
+Empty cells: Color.WHITE
 
-### Клонирование репозитория
+
+### Cloning a repository
 ```bash
 git clone https://your-repository-url.git
 cd your-repository-directory
